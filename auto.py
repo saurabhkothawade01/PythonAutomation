@@ -81,42 +81,7 @@ while True:
 
         elif int(ch) == 6:
 
-                '''print("Welcome to the Python Integration Program with AWS CLI")
-                while True:
-                        os.system('clear')
-                        print("""
-                        Press 0: For exit
-                        Press 1: For downloading & installing AWS CLI V2
-                        Press 2: For configuring AWS CLI V2
-                        Press 3: For creating an AWS Key Pair
-                        Press 4: For deleting an AWS Key Pair
-                        Press 5: For creating a Security Group
-                        Press 6: For deleting a Security Group
-                        Press 7: Launch an EC2 instance""")
-                        ch=int(input())
-
-                        if ch==0:
-
-                                        time.sleep(2)
-                                        os.system("python3 automation.py")
-                                        exit()
-                        elif ch==1:
-                                        install_aws_cli()
-                        elif ch==2:
-                                        configure_aws_cli()
-                        elif ch==3:
-                                        create_key_pair()
-                        elif ch==4:
-                                        del_key_pair()
-                        elif ch==5:
-                                        create_security_group()
-                        elif ch==6:
-                                        del_security_group()
-                        elif ch==7:
-                                        launch_ec2_instance()
-
-                        input("Press Enter to continue")
-                        #os.system("clear")'''
+                
                 def install_aws_cli():
 
                         # Downloading AWS CLI V2
@@ -245,7 +210,7 @@ while True:
                                         launch_ec2_instance()
 
                         input("Press Enter to continue")
-                        #os.system("clear")
+                        
 
         elif int(ch) == 7:
                 os.system('tput setaf 4')
